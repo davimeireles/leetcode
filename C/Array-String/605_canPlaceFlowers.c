@@ -45,16 +45,3 @@ bool canPlaceFlowers(int *flowerbed, int flowerbedSize, int n)
         return false;
     return true;
 }
-
-int main()
-{
-    int arr[] = {0,0};
-    int size = 2;
-    int n = 5;
-
-    canPlaceFlowers(arr, size, n);
-
-    /*     for (int i = 0; i < flowerbedSize; i++)
-        printf("[%d] ", flowerbed[i]);
- */
-}

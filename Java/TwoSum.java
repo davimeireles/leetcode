@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution {
+class TwoSum {
     public int[] twoSum(int[] nums, int target) {
 
         int []ret_index = new int[2];
@@ -18,7 +18,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        TwoSum twoSum = new TwoSum();
 
         int[] nums_ex1 = {2, 7, 11, 15};
         int target_ex1 = 9;
@@ -29,9 +29,9 @@ class Solution {
         int[] nums_ex3 = {3,3};
         int target_ex3 = 6;
 
-        int[] res = solution.twoSum(nums_ex1, target_ex1);
-        int[] res2 = solution.twoSum(nums_ex2, target_ex2);
-        int[] res3 = solution.twoSum(nums_ex3, target_ex3);
+        int[] res = twoSum.twoSum(nums_ex1, target_ex1);
+        int[] res2 = twoSum.twoSum(nums_ex2, target_ex2);
+        int[] res3 = twoSum.twoSum(nums_ex3, target_ex3);
 
         System.out.println("Index's: " + Arrays.toString(res));
         System.out.println("Index's: " + Arrays.toString(res2));
